@@ -38,7 +38,7 @@ public class YourAspect {
                 //Here we can catch and modify any exceptions that are called
                 //We could potentially not throw the exception to the caller and instead return "null" or a default object.
                 //throw throwable;
-                System.out.println("andar ki bar hai");
+                System.out.println("Exception occured");
                 return returnObject;
             } finally {
                 //If we want to be sure that some of our code is executed even if we get an exception
