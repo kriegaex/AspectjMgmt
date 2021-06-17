@@ -3,8 +3,10 @@ package com.jayway.blog;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.JoinPoint;
+import org.springframework.stereotype.Component;
 
 @Aspect
+@Component
 public class YourAspect {
 
     //Defines a pointcut that we can use in the @Before,@After, @AfterThrowing, @AfterReturning,@Around specifications
